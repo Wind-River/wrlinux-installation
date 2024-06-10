@@ -1,5 +1,11 @@
 # Scripts for installation of WRLinux into internal Gitlab server
 
+These scripts are not a 100% solution. There are far to many variations in
+internal infrastructure regarding credential management, network setup, host
+permissions, etc. to make fully generic scripts. These scripts are based on
+scripts used for an internal WindRiver project and have a few extra features
+that might be useful.
+
 ## Staging
 
 The staging script does several things:
