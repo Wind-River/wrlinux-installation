@@ -36,6 +36,8 @@ fi
 
 REL_BRANCH="WRLINUX_10_${REL_NUM}_LTS"
 
+RELEASE="$BASE/lts${REL_NUM}/"
+
 REMOTE=gateway.delivers.windriver.com/git/linux-lts/release/wrlinux-lts."$REL_NUM"/WRLinux-lts-"$REL_NUM"-Core/wrlinux-x
 
 function main {
